@@ -21,3 +21,59 @@ h6 {
 p {
   margin: 0;
 }
+
+.proj1 {
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
+.proj2 {
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
+.proj3 {
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
+.proj4 {
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
+.proj5 {
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  display: flex;
+  align-items: flex-end;
+  flex-basis: calc(50% - 1em);
+  margin: .5em;
+  min-height: 150px;
+}
+
+.flex-item:first-child {
+  min-height: 300px;
+  flex-basis: 100%;
+  
+}
+
+.flex-item div {
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-item {
+   flex-basis: 100%;
+  }
+  .flex-item.first-child {
+    min-height: 150px;
+
+  }
+}
