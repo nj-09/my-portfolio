@@ -46,3 +46,20 @@ padding: 51px 20px;
   display: block;
   font-weight: bold;
   }
+
+/*----- Hero Banner CSS ----- */
+  hero-banner h2{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-overlay {
+  border-color: 10px solid black;
+  }
