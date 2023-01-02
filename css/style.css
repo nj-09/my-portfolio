@@ -98,3 +98,37 @@ p {
   background-image: url('../images/02-portfolio-1.jpg');
 }
 
+/*----- Flex Display Cards CSS ----- */
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  display: flex;
+  align-items: flex-end;
+  flex-basis: calc(50% - 1em);
+  margin: .5em;
+  min-height: 150px;
+}
+
+.flex-item:first-child {
+  min-height: 300px;
+  flex-basis: 100%;
+  
+}
+
+.flex-item div {
+  background-color: lightgreen;
+  padding: 10px;
+}
+/* Footer Section */
+
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: rgb(156, 175, 164);
+  color: rgb(3, 3, 3);
+}
