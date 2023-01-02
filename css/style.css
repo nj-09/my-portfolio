@@ -124,6 +124,7 @@ p {
   background-color: lightgreen;
   padding: 10px;
 }
+
 /* Footer Section */
 
 footer {
@@ -131,4 +132,16 @@ footer {
   padding: 1px;
   background-color: rgb(156, 175, 164);
   color: rgb(3, 3, 3);
+}
+
+/*Media Viewport Section*/
+
+@media screen and (max-width: 768px) {
+  .flex-item {
+  flex-basis: 100%;
+  }
+  .flex-item.first-child {
+    min-height: 150px;
+
+  }
 }
