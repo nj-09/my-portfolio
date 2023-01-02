@@ -1,3 +1,5 @@
+
+/*----- Body CSS ----- */
 body {
   margin: 0;
   padding: 0;
@@ -5,6 +7,7 @@ body {
   line-height: 1.5;
 }
 
+/*----- Header CSS ----- */
 header{
 display: flex;
 justify-content: space-between;
@@ -12,3 +15,34 @@ align-items: center;
 padding: 51px 20px;
 }
 
+
+/*----- Logo CSS ----- */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+/*----- Profile Pic CSS ----- */
+  header img {
+    width: 200px;
+    }
+    
+  img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    }
+  
+  .logo h1 {
+    margin-left: 10px;
+    font-weight: bold;
+    }
+  
+  h1{
+  margin: 0;
+  }
+  
+  h1 {
+  display: block;
+  font-weight: bold;
+  }
