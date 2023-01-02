@@ -63,3 +63,38 @@ padding: 51px 20px;
   .text-overlay {
   border-color: 10px solid black;
   }
+  
+/*----- Cards CSS ----- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.proj1 {
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
+.proj2 {
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
+.proj3 {
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
+.proj4 {
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
+.proj5 {
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
